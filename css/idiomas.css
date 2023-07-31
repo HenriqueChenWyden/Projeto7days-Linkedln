@@ -1,0 +1,34 @@
+section.card.idiomas{
+    padding: 1rem 1.6rem;
+    font-size: 1rem;
+}
+
+
+.idiomas-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.idiomas>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.idiomas>div>p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.idiomas>span{
+    color: var(--texto-secundario);
+}
+
+.idiomas{
+    border-bottom: 1px solid var(--texto-secundario); 
+    margin-bottom: 5px;
+}
+
+.idiomas1>span{
+    color: var(--texto-secundario);
+}
