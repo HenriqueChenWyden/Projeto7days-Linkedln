@@ -1,0 +1,36 @@
+section.card.person{
+    padding: 1rem 1.6rem;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    width: 300px;
+    height: 500px;
+}
+
+.pessoas-lista .pessoas-item div img{
+    width: 48px;
+    height: 64px;
+    object-fit: cover;
+    margin-right: .5rem;
+}
+
+.pessoas>div>p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pessoas>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pessoas {
+    display: flex;
+    margin-top: 8px;
+}
+
+.pessoas>div>span{
+    color: var(--texto-secundario);
+}
